@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=320, initial-scale=1.0">
+<title>Proiect7.1</title>
+	<style>
+	
+		body{
+			font-family: "Cambria", "Hoefler Text", "serif";
+			margin: 20px 40px;
+		}
+		
+        .galerie{
+        max-width: 1000px;
+        width: 90%;
+        margin: 0 auto;
+ 
+        display: grid;
+        grid-template-columns: repeat(5, 1fr) ;
+        grid-gap: 40px;
+        align-content: center;
+			grid-template-areas: 
+        }
+	    @media screen and (max-width: 720px) {
+.galerie{
+grid-template-columns: repeat(3, 1fr);
+}
+}
+ 
+        @media screen and (max-width: 400px) {
+.galerie{
+grid-template-columns: repeat(1, 1fr);
+}
+}
+ #grid1>div{
+			background: linear-gradient( #108DE3 70%, #C7ECEB 30%);
+			text-align: center;
+	        border-radius:20%;
+	        box-shadow: 10px 10px 8px 4px #CACACA;
+		}
+	img{
+    width:100%;
+    max-width:500px;
+}
+			h1{
+			text-align: center;	
+				margin-bottom: 40px;
+		}
+		footer{
+			text-align: center;	
+			margin-top: 40px;
+		}
+	
+	</style>
+</head>
+
+<body> 
+	<h1>Gallery Heading </h1>
+		<div id="grid1" class="galerie">
+	<div id="box1">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>
+		</div>
+	<div id="box2">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>
+		</div>
+		<div id="box3">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+		<div id="box4">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+		<div id="box5">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+		<div id="box6">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+		<div id="box7">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+		<div id="box8">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+		<div id="box9">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+		<div id="box10">
+		<img src="placeholder-image.png">
+		<p>Titlu</p>	
+		</div>
+	</div>
+	<footer>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</footer>
+</body>
+</html>
